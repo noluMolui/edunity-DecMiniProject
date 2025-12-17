@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff7ed;
+}
+
+/* Top bar */
+.top-bar {
+  background: #00bfa6;
+  color: white;
+  padding: 8px 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 22px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.primary {
+  background: orange;
+  color: white;
+}
+
+.secondary {
+  background: none;
+  color: #00bfa6;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  padding: 60px 40px;
+  gap: 40px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.hero-visual {
+  position: relative;
+  flex: 1;
+}
+
+.orange-shape,
+.green-shape {
+  width: 180px;
+  height: 280px;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.orange-shape {
+  background: orange;
+  left: 40px;
+}
+
+.green-shape {
+  background: #00bfa6;
+  right: 40px;
+  top: 60px;
+}
+
+.stat {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.stat-top {
+  top: 0;
+  right: 0;
+}
+
+.stat-bottom {
+  bottom: 0;
+  left: 0;
+}
+
+/* Features */
+.features {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
+
+.feature-card {
+  background: #f3f3f3;
+  padding: 30px;
+  border-radius: 20px;
+  flex: 1;
+}
+
+.feature-card.active {
+  background: #00bfa6;
+  color: white;
+}
+
+/* About */
+.about {
+  display: flex;
+  gap: 40px;
+  padding: 60px 40px;
+}
+
+.image-placeholder {
+  width: 260px;
+  height: 360px;
+  background: #ddd;
+  border-radius: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag {
+  color: orange;
+  font-weight: bold;
+}
+/* Video stats */
+.video-box {
+  background: #0d2b45;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.stat-card h3 {
+  color: orange;
+}
+
+/* Why choose */
+.why-choose {
+  display: flex;
+  gap: 40px;
+  padding: 60px 40px;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.testimonial-list {
+  display: flex;
+  gap: 20px;
+}
+
+.testimonial-card {
+  border: 2px dashed orange;
+  padding: 30px;
+  border-radius: 20px;
+}
