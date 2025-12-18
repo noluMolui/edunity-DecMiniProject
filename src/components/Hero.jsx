@@ -22,13 +22,13 @@ function Hero() {
         </div>
       </div>
 
-      {/* Right visuals */}
+      
       <div className="hero-visual">
         <div className="orange-shape">
           <img src="src/assets/images/schoolboy.png" alt="school-boy image" width="200"/>
         </div>
         <div className="green-shape">
-         <img src="/src/assets/hero.png" alt="graduate.girl" width="200px"S/>
+         <img src="/src/assets/images/girl.png" alt="graduate.girl" width="200"/>
         </div>
 
         <div className="stat stat-top">

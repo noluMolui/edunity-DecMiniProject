@@ -7,14 +7,22 @@ function Navbar() {
   <div className="top-bar-container">
     <p>
       <img src="/src/assets/images/clock.png" alt="clock" width="15" className="icon"/>
-      Monday–Friday 9am–8pm
+            Monday–Friday 9am–8pm
       <span className="separator">|</span>
       <img src="/src/assets/images/location.png" alt="location" width="15" className="icon"/>
       Houston, Wisconsin
     </p>
-    <p>
-    <span>English</span>
-    </p>
+    <p className="language-bar">
+  <span className="language">English</span>
+
+  <span className="social-icons">
+    <img src="/src/assets/images/facebook.png" alt="facebook" />
+    <img src="/src/assets/images/twitter.png" alt="twitter" />
+    <img src="/src/assets/images/skipe.png" alt="skype" />
+    <img src="/src/assets/images/linkedin.png" alt="linkedin" />
+  </span>
+</p>
+
   </div>
 </div>
 

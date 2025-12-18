@@ -25,13 +25,14 @@ function About() {
           sed do eiusmod tempor incididunt.
         </p>
 
-        <ul>
-          <li>✔ Quality Educators</li>
-          <li>✔ Safe And Secure</li>
-          <li>✔ Homelike Environment</li>
+        <ul className="features-list">
+          <li><img src="/src/assets/images/tick.png" alt="a tick" width="15" />QUALITY EDUCATIORS</li>
+          <li><img src="/src/assets/images/tick.png" alt="a tick" width="15" />SAFETY AND SECURITY</li>
+          <li> <img src="/src/assets/images/tick.png" alt="a tick" width="15" />PLAY TO LEARN</li>
+          <li> <img src="/src/assets/images/tick.png" alt="a tick" width="15" />HOMELIKE ENVIROMEND</li>
         </ul>
 
-        <Button text="Admission Open" variant="primary" />
+        <Button text="Admission Open" variant="primary" ></Button>
       </div>
     </section>
   );

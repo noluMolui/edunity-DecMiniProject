@@ -33,7 +33,7 @@ body {
 .top-info {
   display: flex;
   align-items: center;
-  gap: 8px;                     /* space between icons and text */
+  gap: 8px;                    
   margin: 0;
 }
 
@@ -41,30 +41,43 @@ body {
   margin: 0 8px;
 }
 
-/* optional styling for the English span */
+
+.language-bar {
+
+  margin: 0;
+  padding:  20px ;
+  display: flex;
+  align-items: center;   
+  gap: 40px;             
+  background-color: var(--primary-orange);
+}
+
 .language {
-  white-space: nowrap;           /* prevent line break */
+  font-size: 14px;       
+  white-space: nowrap;
 }
 
-
-.icon{
-  
-  background: white;
-  border-radius: 50%;        
-  display: inline-flex;
+.social-icons {
+  display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 10px;            
 }
 
+.social-icons img {
+  width: 14px;          
+  height: 14px;
+  object-fit: contain;
+}
+.icon {
+  margin: 0 10px 0 10px;
+  vertical-align: middle;
+}
 
-
-
-/* Navbar */
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px 30px;
   background: var(--white);
 }
 .nav-item {
@@ -82,7 +95,7 @@ body {
   list-style: none;
 }
 
-/* Buttons */
+
 .btn {
   padding: 12px 22px;
   border-radius: 25px;
@@ -102,7 +115,7 @@ body {
   font-weight: bold;
 }
 
-/* Hero */
+
 .hero {
   display: flex;
   padding: 60px 40px;
@@ -143,29 +156,49 @@ body {
   top: 60px;
 }
 
-.stat {
-  background: var(--white);
-  padding: 10px;
-  border-radius: 12px;
-  position: absolute;
-  font-size: 14px;
-}
+.stats {
+    display: flex;
+    text-align: center;
+    padding: 40px 20px;
+    justify-content: center;
+    gap: 40px;
+  }
 
-.stat-top {
-  top: 0;
-  right: 0;
-}
 
-.stat-bottom {
-  bottom: 0;
-  left: 0;
-}
 
-/* Features */
+  .stat .icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background-color: #FFA500; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .stat .icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .stat h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+
+  .stat p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 16px;
+  }
+
 .features {
   display: flex;
   gap: 20px;
   padding: 40px;
+  margin: 20px;
 }
 
 .feature-card {
@@ -179,12 +212,34 @@ body {
   background: var(--primary-green);
   color: var(--white);
 }
+.features-list {
+  list-style: none;         
+  padding: 0;
+  margin: 0;
 
-/* About */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 16px 30px;             
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;                  
+  font-size: 14px;
+}
+
+
+.video-box {
+  display: flex;
+  justify-content: center; 
+}
+
 .about {
   display: flex;
   gap: 130px;
   padding: 60px 40px;
+  margin: 20px;
 }
 
 .Aboutus-images {
@@ -205,24 +260,18 @@ body {
   font-size: 20px;
 }
 
-.stats-row {
-  display: flex;
-  justify-content: space-around;
-  padding: 30px;
-}
 
-.stat-card h3 {
-  color: var(--primary-orange);
-}
+ 
 
-/* Why choose */
+ 
+
 .why-choose {
   display: flex;
   gap: 40px;
   padding: 60px 40px;
 }
 
-/* Testimonials */
+
 .testimonials {
   text-align: center;
   padding: 60px 40px;
