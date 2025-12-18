@@ -6,20 +6,20 @@ function Navbar() {
       <div className="top-bar">
   <div className="top-bar-container">
     <p>
-      <img src="/src/assets/images/clock.png" alt="clock" width="15" className="icon"/>
+      <img src="/images/clock.png" alt="clock" width="15" className="icon"/>
             Monday–Friday 9am–8pm
       <span className="separator">|</span>
-      <img src="/src/assets/images/location.png" alt="location" width="15" className="icon"/>
+      <img src="/images/location.png" alt="location" width="15" className="icon"/>
       Houston, Wisconsin
     </p>
     <p className="language-bar">
   <span className="language">English</span>
 
   <span className="social-icons">
-    <img src="/src/assets/images/facebook.png" alt="facebook" />
-    <img src="/src/assets/images/twitter.png" alt="twitter" />
-    <img src="/src/assets/images/skipe.png" alt="skype" />
-    <img src="/src/assets/images/linkedin.png" alt="linkedin" />
+    <img src="/images/facebook.png" alt="facebook" />
+    <img src="/images/twitter.png" alt="twitter" />
+    <img src="/images/skipe.png" alt="skype" />
+    <img src="/images/linkedin.png" alt="linkedin" />
   </span>
 </p>
 
@@ -28,7 +28,7 @@ function Navbar() {
 
 
       <nav className="navbar">
-       <img src="src/assets/images/logo.png" alt="ledunity-logo" width="120"/>
+       <img src="/images/logo.png" alt="ledunity-logo" width="120"/>
         <ul className="nav-links">
 
           <li class="nav-item">

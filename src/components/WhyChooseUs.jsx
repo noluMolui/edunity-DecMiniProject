@@ -23,7 +23,7 @@ function WhyChooseUs() {
       </div>
 
       <div className="why-image">
-        <div className="whyUs-image"><img src="/src/assets/images/Whyus.png" alt="whyus-images" width="400"/></div>
+        <div className="whyUs-image"><img src="/images/Whyus.png" alt="whyus-images" width="400"/></div>
       </div>
     </section>
   );

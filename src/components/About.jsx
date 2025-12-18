@@ -6,8 +6,8 @@ function About() {
       <div className="about-image">
 
         <div className="Aboutus-images">
-          <img src="/src/assets/images/aboutus1.png" alt="aboutusleaner" width="200" />
-          <img src="/src/assets/images/aboutus2.png" alt="aboutusleaner" width="200" />
+          <img src="/aboutus1.png" alt="aboutusleaner" width="200" />
+          <img src="/aboutus2.png" alt="aboutusleaner" width="200" />
         </div>
 
       </div>
@@ -26,10 +26,10 @@ function About() {
         </p>
 
         <ul className="features-list">
-          <li><img src="/src/assets/images/tick.png" alt="a tick" width="15" />QUALITY EDUCATIORS</li>
-          <li><img src="/src/assets/images/tick.png" alt="a tick" width="15" />SAFETY AND SECURITY</li>
-          <li> <img src="/src/assets/images/tick.png" alt="a tick" width="15" />PLAY TO LEARN</li>
-          <li> <img src="/src/assets/images/tick.png" alt="a tick" width="15" />HOMELIKE ENVIROMEND</li>
+          <li><img src="images/tick.png" alt="a tick" width="15" />QUALITY EDUCATIORS</li>
+          <li><img src="images/tick.png" alt="a tick" width="15" />SAFETY AND SECURITY</li>
+          <li> <img src="images/tick.png" alt="a tick" width="15" />PLAY TO LEARN</li>
+          <li> <img src="images/tick.png" alt="a tick" width="15" />HOMELIKE ENVIROMEND</li>
         </ul>
 
         <Button text="Admission Open" variant="primary" ></Button>

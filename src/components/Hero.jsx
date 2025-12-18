@@ -25,10 +25,10 @@ function Hero() {
       
       <div className="hero-visual">
         <div className="orange-shape">
-          <img src="src/assets/images/schoolboy.png" alt="school-boy image" width="200"/>
+          <img src="images/schoolboy.png" alt="school-boy image" width="200"/>
         </div>
         <div className="green-shape">
-         <img src="/src/assets/images/girl.png" alt="graduate.girl" width="200"/>
+         <img src="images/girl.png" alt="graduate.girl" width="200"/>
         </div>
 
         <div className="stat stat-top">
