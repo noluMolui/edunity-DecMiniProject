@@ -4,7 +4,12 @@ function About() {
   return (
     <section className="about">
       <div className="about-image">
-        <div className="image-placeholder">Image</div>
+
+        <div className="Aboutus-images">
+          <img src="/src/assets/images/aboutus1.png" alt="aboutusleaner" width="200" />
+          <img src="/src/assets/images/aboutus2.png" alt="aboutusleaner" width="200" />
+        </div>
+
       </div>
 
       <div className="about-text">

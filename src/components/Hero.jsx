@@ -24,8 +24,12 @@ function Hero() {
 
       {/* Right visuals */}
       <div className="hero-visual">
-        <div className="orange-shape"></div>
-        <div className="green-shape"></div>
+        <div className="orange-shape">
+          <img src="src/assets/images/schoolboy.png" alt="school-boy image" width="200"/>
+        </div>
+        <div className="green-shape">
+         <img src="/src/assets/hero.png" alt="graduate.girl" width="200px"S/>
+        </div>
 
         <div className="stat stat-top">
           <strong>5.8k</strong>

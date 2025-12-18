@@ -5,7 +5,7 @@ function VideoStats() {
     <section className="video-stats">
       {/* Video */}
       <div className="video-box">
-        <button className="play-circle">▶</button>
+        <img src="/src/assets/images/vidback.png" alt="video" width="100%"/>
       </div>
 
       {/* Stats */}
