@@ -4,16 +4,33 @@ function Navbar() {
   return (
     <>
       <div className="top-bar">
-        <p>Working Monday–Friday 9am–8pm | Houston, Wisconsin</p>
-        <span>English</span>
-      </div>
+  <div className="top-bar-container">
+    <p>
+      <img src="/src/assets/images/clock.png" alt="clock" width="15" className="icon"/>
+      Monday–Friday 9am–8pm
+      <span className="separator">|</span>
+      <img src="/src/assets/images/location.png" alt="location" width="15" className="icon"/>
+      Houston, Wisconsin
+    </p>
+    <p>
+    <span>English</span>
+    </p>
+  </div>
+</div>
+
 
       <nav className="navbar">
-        <h2 className="logo">KIDSO</h2>
-
+       <img src="src/assets/images/logo.png" alt="ledunity-logo" width="120"/>
         <ul className="nav-links">
-          <li>Home</li>
-          <li>About Us</li>
+
+          <li class="nav-item">
+           Home ⌄
+          </li>
+
+          <li class="nav-item">
+            About Us ⌄
+           </li>
+
           <li>Courses</li>
           <li>Pages</li>
           <li>Blog</li>
